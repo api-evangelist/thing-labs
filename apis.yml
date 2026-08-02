@@ -1,7 +1,29 @@
 aid: thing-labs
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/thing-labs.png
 name: Thing Labs
-description: Thing Labs is a company surfaced as a portfolio company of uncork-capital and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Thing Labs was an early consumer social-software startup founded in 2008 by
+  Jason Shellen (previously a product lead on Blogger and a co-creator of Google
+  Reader at Google). The company built browser-based social tools including
+  Plinky (daily writing prompts), Brizzly and the Brizzly Guide (a web-based
+  Twitter/social client), and Let's Be Trends. Backed by SoftTech VC (now Uncork
+  Capital) alongside angel investors, Thing Labs was acquired by AOL in September
+  2010, after which Shellen became VP of Product for AOL's AIM & Messaging group.
+  Thing Labs no longer exists as an independent entity and publishes no public
+  developer portal, documentation, OpenAPI/AsyncAPI, or machine-readable API
+  surface; this profile is retained as a portfolio-lead record for the API
+  Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/thing-labs/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +31,27 @@ x-backed-by:
 - uncork-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-acquired-by: AOL
+x-acquired: '2010-09'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Social Software
+- Consumer
+- Web Applications
+- Acquired
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
